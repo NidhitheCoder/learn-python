@@ -13,3 +13,10 @@
 - sudo apt install python3.8(version). 
 - You can check version of python installed by using 'python --version'.
 
+### python extension features
+- Linting: Which basically means analyzing our code for potential errors.
+- Debugging: Which involvs finding and fixing errors.
+- Auto completion
+- Code formating
+- Unit testing: Writing a bunch of code for testing codes.
+- Code snippets
