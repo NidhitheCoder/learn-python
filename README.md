@@ -11,8 +11,8 @@
 
 - Goto https://www.python.org/
 - Goto download and download latest version of python.
-- sudo apt install python3.8(version).
-- You can check version of python installed by using 'python --version'.
+- `sudo apt install python3.8(version)`
+- You can check version of python installed by using `python --version`.
 
 ### python extension features
 
@@ -25,11 +25,11 @@
 
 ## Python implementations
 
-- python language and python particular implementation python
+- Python language and python particular implementation python
 - Python is a language: is a set of rules and grammer for writing python code.
 - A python implementation: is basically a program that understands those rules and can execute python code.
 - Python implementations examples:
-  - jpython(writtern in java)
+  - jython(writtern in java)
   - ironPython(writtern in c#)
   - PyPy(subset of python itself)
   - cPython is the default implementation.
