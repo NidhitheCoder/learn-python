@@ -42,3 +42,11 @@
   - Boolean type values first letter are uppercase.
   - In string type you can cover strings with single quotes('), double quotes("), and tripple quotes(""")- for mutli-line.
   - In Python you can initialize multiple variables in same line.
+  - Build in premitive types are immutable(which means their value cannot change). Here if we try to update value of x,
+    python interpreter is going to allocate some new memory to store the updated value. But x is originally referencing the intitial location.
+
+  ## Dynamic typing
+
+  - Static languages: In static languages you need to specify type of the variable when we declaring a variable.
+    In static languages type of a variable is always same. Eg. c++, c#, java.
+  - Dynamic languages: In dynamic variables the type of a variable is determine at runtime as opposed to compile time. Eg. javascript, ruby, python.

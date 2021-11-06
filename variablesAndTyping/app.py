@@ -17,3 +17,22 @@ a, b = 3, 4
 
 # Assign same value for mutliple variables
 x = y = 2
+
+student = 5
+print(type(student))
+
+student = True
+print(type(student))
+
+apple: int = 10
+
+print(id(apple))
+
+apple = apple + 2
+print(id(apple))
+
+y = [1, 2, 3, 5]
+print(id(y))
+
+y.append(4)
+print(id(y))
