@@ -50,3 +50,11 @@
   - Static languages: In static languages you need to specify type of the variable when we declaring a variable.
     In static languages type of a variable is always same. Eg. c++, c#, java.
   - Dynamic languages: In dynamic variables the type of a variable is determine at runtime as opposed to compile time. Eg. javascript, ruby, python.
+
+  ## Strings
+
+  - There are some escape sequences in python
+    - \"
+    - \'
+    - \\
+    - \n
