@@ -54,7 +54,15 @@
   ## Strings
 
   - There are some escape sequences in python
+
     - \"
     - \'
     - \\
     - \n
+
+    ## Numbers
+
+    - `0b` helps to convert a binary number to decimal. eg: `0b10 = 2`, `0b1011 = 11`
+    - bin() helps to get binary representation of a number.
+    - `0x` helps to convert a hexa decimal number to decimal. eg: `0x12c = 300`
+    - hex() helps to get hexadecimal representation of a number.
