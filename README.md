@@ -67,3 +67,12 @@
     - `0x` helps to convert a hexa decimal number to decimal. eg: `0x12c = 300`
     - hex() helps to get hexadecimal representation of a number.
     - Python don't have increament operator.
+    - Uppercase indicate the variable is a constant variable.
+    - Python 3 built in functions : https://docs.python.org/3/library/functions.html
+
+    # Type conversion
+
+    - Input() helps to get input from the terminal.
+    - Python language doesn't know how to do type conversion.
+    - Python is strongly typed language.
+    - type conversion functions: int(), float(), bool(), str();
