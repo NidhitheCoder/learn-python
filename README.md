@@ -30,17 +30,17 @@
 - A Python implementation: is basically a program that understands those rules and can execute Python code.
 - Python implementations examples:
 
-  - jython(writtern in java)
-  - ironPython(writtern in c#)
+  - Jython(writtern in java)
+  - IronPython(writtern in c#)
   - PyPy(subset of Python itself)
-  - cPython is the default implementation.
+  - CPython is the default implementation.
 
   ## Python variables
 
   - Integers, floats, boolean and strings are the common build-in types in Python.
   - Use all letters are lowercase and using underscore as separator.
   - Boolean type values first letter are uppercase.
-  - In string type you can cover strings with single quotes('), double quotes("), and tripple quotes(""")- for mutli-line.
+  - In string type you can cover strings with `single quotes(')`, `double quotes(")`, and `tripple quotes(""")`- for mutli-line.
   - In Python you can initialize multiple variables in same line.
   - Build in premitive types are immutable(which means their value cannot change). Here if we try to update value of x,
     python interpreter is going to allocate some new memory to store the updated value. But x is originally referencing the intitial location.
@@ -55,24 +55,26 @@
 
   - There are some escape sequences in python
 
-    - \"
-    - \'
-    - \\
-    - \n
+    - `\"`
+    - `\'`
+    - `\\`
+    - `\n`
 
     ## Numbers
 
     - `0b` helps to convert a binary number to decimal. eg: `0b10 = 2`, `0b1011 = 11`
     - bin() helps to get binary representation of a number.
     - `0x` helps to convert a hexa decimal number to decimal. eg: `0x12c = 300`
-    - hex() helps to get hexadecimal representation of a number.
+    - `hex()` helps to get hexadecimal representation of a number.
     - Python don't have increament operator.
     - Uppercase indicate the variable is a constant variable.
     - Python 3 built in functions : https://docs.python.org/3/library/functions.html
 
     # Type conversion
 
-    - Input() helps to get input from the terminal.
+    - `Input()` helps to get input from the terminal.
     - Python language doesn't know how to do type conversion.
     - Python is strongly typed language.
-    - type conversion functions: int(), float(), bool(), str();
+    - type conversion functions: `int()`, `float()`, `bool()`, `str()`;
+
+    - falsy values: `"", 0, [], none(null)`
