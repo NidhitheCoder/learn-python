@@ -78,3 +78,7 @@
     - type conversion functions: `int()`, `float()`, `bool()`, `str()`;
 
     - falsy values: `"", 0, [], none(null)`
+
+    # conditional statements
+
+    - In python language use indent for scoping.
