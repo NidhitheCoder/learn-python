@@ -82,3 +82,22 @@
     # conditional statements
 
     - In python language use indent for scoping.
+    - syntax:
+
+      ```
+      if <Contition-1>:
+        statement-1
+      elif <Contition-2>:
+        statement-2
+      else:
+        statement-3
+      ```
+
+  # Logical operators
+
+  - ADN, OR, NOT
+  - string.strip() method helps to strip the white spaces
+
+  # Ternary operator
+
+  -
