@@ -105,3 +105,4 @@
   ## Loops in python
 
   - There are two types of loops in python: for loops and while loops.
+  - range function take small amount of memory.
