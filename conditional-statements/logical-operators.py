@@ -15,3 +15,6 @@ age = 22
 if 18 <= age < 65:
   print("Eligible")
 
+
+message = "Eligible" if age >= 18 else "Not Eligible"
+

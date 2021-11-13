@@ -70,7 +70,7 @@
     - Uppercase indicate the variable is a constant variable.
     - Python 3 built in functions : https://docs.python.org/3/library/functions.html
 
-    # Type conversion
+    ## Type conversion
 
     - `Input()` helps to get input from the terminal.
     - Python language doesn't know how to do type conversion.
@@ -79,7 +79,7 @@
 
     - falsy values: `"", 0, [], none(null)`
 
-    # conditional statements
+    ## conditional statements
 
     - In python language use indent for scoping.
     - syntax:
@@ -93,11 +93,15 @@
         statement-3
       ```
 
-  # Logical operators
+  ## Logical operators
 
   - ADN, OR, NOT
   - string.strip() method helps to strip the white spaces
 
-  # Ternary operator
+  ## Ternary operator
 
-  -
+  - syntax: `<staement-block-1> if <contition> else <statement-block-2>`
+
+  ## Loops in python
+
+  - There are two types of loops in python: for loops and while loops.
