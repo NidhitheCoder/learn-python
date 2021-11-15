@@ -111,3 +111,5 @@
   ## Arguments
 
   - add an astrics(\*) before an argument then python will see that parameter as topple.
+
+  -> In python arrays are called topple and objects are called dictionary.
