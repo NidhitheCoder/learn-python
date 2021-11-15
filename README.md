@@ -107,3 +107,7 @@
   - There are two types of loops in python: for loops and while loops.
   - range function take small amount of memory.
     - Keyword arguments helps to the code is more readable.
+
+  ## Arguments
+
+  - add an astrics(\*) before an argument then python will see that parameter as topple.
