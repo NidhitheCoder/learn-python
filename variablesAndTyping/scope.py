@@ -1,9 +1,13 @@
+# Local  variable
+
 # def greet():
 #   if True:
 #     message = "a"
 #   print(message)
 
 # greet()
+
+# Global variable
 
 message = "a"
 

@@ -117,3 +117,19 @@
   ## Variable scope
 
   - In python there are two type of variables: local variable with function scope and global variable with file scope.
+  - In python there is no block level scope.
+  - eg for scope:
+
+    ```
+    def greet():
+      if True:
+        message = "a"
+      print(message)
+
+    greet()
+
+    ```
+
+  - No matter where we define the variable in a function, it is always accessable in that function.
+  - global keyword helps to modify global variable inside the function.
+  - Modifying global variable inside a function will make side effects in other functions that use the global variables.
