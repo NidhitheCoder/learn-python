@@ -113,3 +113,7 @@
   - add an astrics(\*) before an argument then python will see that parameter as topple.
 
   -> In python arrays are called topple and objects are called dictionary.
+
+  ## Variable scope
+
+  - In python there are two type of variables: local variable with function scope and global variable with file scope.
