@@ -106,3 +106,30 @@
 
   - There are two types of loops in python: for loops and while loops.
   - range function take small amount of memory.
+    - Keyword arguments helps to the code is more readable.
+
+  ## Arguments
+
+  - add an astrics(\*) before an argument then python will see that parameter as topple.
+
+  -> In python arrays are called topple and objects are called dictionary.
+
+  ## Variable scope
+
+  - In python there are two type of variables: local variable with function scope and global variable with file scope.
+  - In python there is no block level scope.
+  - eg for scope:
+
+    ```
+    def greet():
+      if True:
+        message = "a"
+      print(message)
+
+    greet()
+
+    ```
+
+  - No matter where we define the variable in a function, it is always accessable in that function.
+  - global keyword helps to modify global variable inside the function.
+  - Modifying global variable inside a function will make side effects in other functions that use the global variables.
