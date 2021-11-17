@@ -9,6 +9,7 @@
 - OOP helps to development faster and cheaper, with better software maintainability.
 - OOPS uses the concept of objects and classes.
   A class can be thought of as a 'blueprint' for objects. these can have their own attributes and methods.
+- Simply, class is a design and object is real stuff.
 
 ### Object
 
