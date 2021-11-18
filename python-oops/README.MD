@@ -17,6 +17,9 @@
 - If you want to store something in object, you need to declare variables.
 - An object is an instance of a class.
 - Every objects have certain attributes and every objects have certain behaviour.
+- Everytime you create an object it is allocated to new space.
+- Size of objects is depends on number of the variables.
+- Constructor allocate size to object.
 
 ### Methods
 
