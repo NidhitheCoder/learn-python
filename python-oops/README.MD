@@ -34,4 +34,13 @@
 
 ### Type of variables in python
 
-- in oops there are two types of variables: instance variables and class/static variables.
+- In oops there are two types of variables: instance variables and class/static variables.
+- If you change one instance variable in one object is only changed in that spceific object variables value.
+- ```python
+    class car:
+    wheels = 4
+    def __init__(self):
+      self.mil = 10
+      self.com = "BMW"
+  ```
+  => In the above example, the variable with name `wheels` is a `class variable`. And the variables named `mil,com` are called `instance variables`.
