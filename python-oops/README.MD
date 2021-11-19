@@ -31,3 +31,7 @@
 - Inside the class, an `__init__` method has to be defined with `def`. This is the initializer that you can later use to instantiate objects.
 - `__init__` method take one argument called `self`, which refers to object itself.
 - `self` keyword helps to refer the object inside class.
+
+### Type of variables in python
+
+- in oops there are two types of variables: instance variables and class/static variables.
