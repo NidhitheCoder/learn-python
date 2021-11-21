@@ -44,3 +44,12 @@
       self.com = "BMW"
   ```
   => In the above example, the variable with name `wheels` is a `class variable`. And the variables named `mil,com` are called `instance variables`.
+
+### Type of methods
+
+- Instance methods
+- Class methods
+- Static methods
+
+- instances - If you want to just fetch the values of the instance variable we will be using access methods.
+- If you want to modify the values you will use mutaters.
