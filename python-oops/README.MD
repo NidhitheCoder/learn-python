@@ -31,3 +31,31 @@
 - Inside the class, an `__init__` method has to be defined with `def`. This is the initializer that you can later use to instantiate objects.
 - `__init__` method take one argument called `self`, which refers to object itself.
 - `self` keyword helps to refer the object inside class.
+
+### Type of variables in python
+
+- In oops there are two types of variables: instance variables and class/static variables.
+- If you change one instance variable in one object is only changed in that spceific object variables value.
+- ```python
+    class car:
+    wheels = 4
+    def __init__(self):
+      self.mil = 10
+      self.com = "BMW"
+  ```
+  => In the above example, the variable with name `wheels` is a `class variable`. And the variables named `mil,com` are called `instance variables`.
+
+### Type of methods
+
+- Instance methods
+- Class methods
+- Static methods
+
+- instances - If you want to just fetch the values of the instance variable we will be using access methods.
+- If you want to modify the values you will use mutaters.
+- getters and setters
+- Getters only get the values or fetch the value thats why called accecers.
+- Setter set the values or change the value thats why called mutators.
+
+- Instance variables can be used with instants methods.
+- Class variables can be used with class methods.
