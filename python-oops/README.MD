@@ -53,3 +53,9 @@
 
 - instances - If you want to just fetch the values of the instance variable we will be using access methods.
 - If you want to modify the values you will use mutaters.
+- getters and setters
+- Getters only get the values or fetch the value thats why called accecers.
+- Setter set the values or change the value thats why called mutators.
+
+- Instance variables can be used with instants methods.
+- Class variables can be used with class methods.
