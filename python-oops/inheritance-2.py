@@ -24,6 +24,16 @@ class B(A):
   def feature4(self):
     print('Feture 4 is working')
 
+class C(B):
+  def __init__(self):
+    super().__init__()
+    print("C in init")
+  
+  def feat(self):
+    super().feature2()
+
 
 a1 = B()
 a1.feature1()
+a = C()
+a.feat()
