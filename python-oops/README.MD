@@ -65,3 +65,4 @@
 - A class using features of existing class.
 - One class wll extends from different classes or multiple classes called multiple inheritance.
 - subclasses can access all the features of super class.
+- To represent super class we use super method.
