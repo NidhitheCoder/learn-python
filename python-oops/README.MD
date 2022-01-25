@@ -2,6 +2,7 @@
 
 - Python support all type of programming paradigm.
 - Python support functional programming, Object oriented programming, and procedure oriented programming.
+- Dynamic typing - that means we can mention later for a variable.
 
 # Oops introduction
 
@@ -66,3 +67,15 @@
 - One class wll extends from different classes or multiple classes called multiple inheritance.
 - subclasses can access all the features of super class.
 - To represent super class we use super method.
+
+### polymorphism
+- poly - means 'many'
+- morph - means 'form'
+- polymorphism means one thing can take mutliple forms
+- The 4 ways for implementing polymorphism in python, they are;
+  1. Duck typing
+  2. Operator overloading
+  3. Method overloading
+  4. Method overriding
+#### Duck typing
+- 
