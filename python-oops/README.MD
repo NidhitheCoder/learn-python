@@ -78,4 +78,7 @@
   3. Method overloading
   4. Method overriding
 #### Duck typing
+- Duck typing is a concept related to dynamic typing, where the type or the class of an object is less important than the methods its defines. When you use duck typing, you do not check types at all. Instead we check for the presence of a given method or attribute.
+
+#### Operator overloading
 - 
