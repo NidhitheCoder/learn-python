@@ -81,4 +81,4 @@
 - Duck typing is a concept related to dynamic typing, where the type or the class of an object is less important than the methods its defines. When you use duck typing, you do not check types at all. Instead we check for the presence of a given method or attribute.
 
 #### Operator overloading
-- 
+- Operator overloading in python is the ability of a single operator to perform morethan one operation based on the class(type) of operands. For example, the + operator can be used to add two numbers, concatenate two strings or merge two lists.

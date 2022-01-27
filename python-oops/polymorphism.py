@@ -42,11 +42,36 @@ class Student:
 
     return s3
 
+  def __gt__(self, other):
+    r1 = self.m1 + self.m2
+    r2 = other.m1 + other.m2
+    
+    if r1 > r2:
+      return True
+    return False
+  
+  def __str__(self):
+    # return self.m1, self.m2
+    return ' {} {}'.format(self.m1, self.m2)
 
 s1 = Student(58, 68)
-s2 = Student(45, 34)
+s2 = Student(495, 34)
 
 s3 = s1 + s2  # -> Student.__add__(s1, s2)
 
 print(s3.m1) # 103
 print(s3.m2) # 102
+
+if ( s1 > s2):
+  print('s1 wins')
+else:
+  print('s2 wins')
+
+a = 9
+print(a) # print value of 'a'. if we print a then we call a.__str__()
+print(a.__str__())
+
+print(s1.__str__())  # Print address of 's1'
+print(s1)
+
+print(s2)
