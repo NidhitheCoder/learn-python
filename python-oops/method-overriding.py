@@ -1,14 +1,13 @@
-class Student:
-  def __init__(self, m1, m2):
-    self.m1 = m1
-    self.m2 = m2
+class A:
 
-  def sum(self, a, b):
-    s = a + b
-    return s
+  def show(self):
+    print('A in show')
+
+class B(A):
+  
+  def show(self): # class B's show method override class A's show method.
+    print('B in show')
 
 
-s1 = Student(23, 34)
-
-print(s1.sum(5, 8))
-print(s1.sum(1, 2, 3)) # will return an error becouse of number of parameters
+a1 = B()
+a1.show()
