@@ -2,6 +2,7 @@
 
 - Python support all type of programming paradigm.
 - Python support functional programming, Object oriented programming, and procedure oriented programming.
+- Dynamic typing - that means we can mention later for a variable.
 
 # Oops introduction
 
@@ -66,3 +67,48 @@
 - One class wll extends from different classes or multiple classes called multiple inheritance.
 - subclasses can access all the features of super class.
 - To represent super class we use super method.
+
+### polymorphism
+- poly - means 'many'
+- morph - means 'form'
+- polymorphism means one thing can take mutliple forms
+- The 4 ways for implementing polymorphism in python, they are;
+  1. Duck typing
+  2. Operator overloading
+  3. Method overloading
+  4. Method overriding
+#### Duck typing
+- Duck typing is a concept related to dynamic typing, where the type or the class of an object is less important than the methods its defines. When you use duck typing, you do not check types at all. Instead we check for the presence of a given method or attribute.
+
+#### Operator overloading
+- Operator overloading in python is the ability of a single operator to perform morethan one operation based on the class(type) of operands. For example, the + operator can be used to add two numbers, concatenate two strings or merge two lists.
+- The operators still same and operends will change
+
+
+  eg:  a = 5 + 4
+        b = 'No' + 'Fun'
+        c = { 1: 'haii'} + { 3: 'Hello}
+  
+  - In the above examples the operends will change in each time but the operater will remin same.
+
+#### Method overloading
+- You have same method name and you have different arguments or may be the type of arguments are different.
+- Method overloading means, if your class have two methods with same name and different parameters.
+- eg:
+      `class student:
+        def avarage(a, b):
+
+        def avarage(a, b ,c):
+      `
+
+- But python dont have method overloading becouse we cannot create two methods with same name.
+
+#### Method overriding
+- Method overriding means you have two methods with same name and same number of parameters/or arguments.
+- In the case of inheritance we  the different classes have same method with same parameters.
+- eg.
+      `class A:
+        def sum():
+
+       class B(A):
+        def sum(): `
